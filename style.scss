@@ -52,9 +52,10 @@ body {
         .post-excert{
             margin-bottom: $margin;
             background-color: $bgColor;
+            color: #fbefff;
             padding: 5px;
             border-radius: 5px;
-            border: 1px solid $bgColors;
+            border: 1px solid $bgColor;
         }
         .learn-more{
             font-weight: bold;
@@ -62,11 +63,12 @@ body {
             border: 1.5px solid #3b1150;
             padding: 5px;
             border-radius: 5px;
-            transition: transform background-color 0.3s ease;
+            transition: transform .5s, background-color .5s ease;
         }
         a:hover{
             background-color: $bgColor;
             color: #e8c7f2;
+            transform: scale(2.2);
   
         }
         a:focus{
